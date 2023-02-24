@@ -1,0 +1,106 @@
+{
+  "menu": [
+    { "menuHeader": "Dashboards" },
+    {
+      "name": "Sekolah",
+      "icon": "menu-icon ti ti-backpack",
+      "slug": "sekolah",
+      "submenu": [
+        {
+          "url": "/sekolah/informasi",
+          "name": "Informasi Umum",
+          "slug": "sekolah-informasi"
+        },
+        {
+          "url": "/sekolah/data-guru",
+          "name": "Data Guru",
+          "slug": "sekolah-data-guru"
+        },
+        {
+          "url": "/sekolah/sejarah",
+          "name": "Sejarah & Visi Misi",
+          "slug": "sekolah-sejarah"
+        },
+        {
+          "url": "/sekolah/jurusan",
+          "name": "Jurusan",
+          "slug": "sekolah-jurusan"
+        }
+      ]
+    },
+
+    {
+      "name": "Siswa",
+      "icon": "menu-icon ti ti-user",
+      "slug": "siswa",
+      "submenu": [
+        {
+          "name": "Data",
+          "slug": "siswa-data",
+          "submenu": [
+            {
+              "url": "/siswa/data-siswa",
+              "name": "Data Siswa",
+              "slug": "siswa-data-siswa"
+            },
+            {
+              "url": "/siswa/data-nilai",
+              "name": "Data Nilai",
+              "slug": "siswa-data-nilai"
+            }
+          ]
+        },
+        {
+          "url": "/siswa/kelas",
+          "name": "Kelas",
+          "slug": "siswa-kelas"
+        }
+      ]
+    },
+    {
+      "name": "Pembayaran",
+      "icon": "menu-icon ti ti-cash",
+      "slug": "pembayaran",
+      "badge": ["primary", "2"],
+      "submenu": [
+        {
+          "url": "/pembayaran/spp",
+          "name": "SPP",
+          "slug": "pembayaran-spp"
+        },
+        {
+          "url": "/pembayaran/tabungan",
+          "name": "Tabungan Siswa",
+          "slug": "pembayaran-tabungan"
+        }
+      ]
+    },
+    {
+      "menuHeader": "Add Ons"
+    },
+    {
+      "url": "/ppdb",
+      "name": "PPDB",
+      "icon": "menu-icon ti ti-clipboard-text",
+      "slug": "ppdb"
+    },
+    {
+      "url": "/alumni",
+      "name": "Alumni",
+      "icon": "menu-icon ti ti-school",
+      "slug": "alumni"
+    },
+    {
+      "url": "/absensi",
+      "name": "Absensi",
+      "icon": "menu-icon ti ti-qrcode",
+      "slug": "absensi"
+    },
+    {
+      "url": "/agenda-guru",
+      "name": "Agenda Guru",
+      "icon": "menu-icon ti ti-list-check",
+      "slug": "agenda-guru"
+    }
+  ]
+}

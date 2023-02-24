@@ -1,0 +1,17 @@
+{
+  "pages": [
+    {
+      "name": "Dashboard Analytics",
+      "icon": "ti-smart-home",
+      "url": "/"
+    }
+  ],
+  "members": [
+    {
+      "name": "John Doe",
+      "subtitle": "Admin",
+      "src": "img/avatars/1.png",
+      "url": "app/user/view/account"
+    }
+  ]
+}
